@@ -9,7 +9,7 @@ interface SiteConfig {
 
 const siteConfig: SiteConfig = {
   framerUrl: "https://content-teammates-221259.framer.app",
-  domain: "https://framer-reverse-proxy.vercel.app",
+  domain: "https://softwarize-gray.vercel.app",
   name: "Framer Reverse Proxy",
 };
 
