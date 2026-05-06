@@ -9,8 +9,8 @@ interface SiteConfig {
 
 const siteConfig: SiteConfig = {
   framerUrl: "https://content-teammates-221259.framer.app",
-  domain: "https://softwarize-gray.vercel.app",
-  name: "Framer Reverse Proxy",
+  domain: "https://softwarize.graycup.org",
+  name: "Softwarize by Gray Cup",
 };
 
 export default siteConfig;
