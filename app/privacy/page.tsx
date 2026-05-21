@@ -3,8 +3,6 @@ import Link from "next/link"
 import type { ReactNode } from "react"
 import { ArrowLeft } from "lucide-react"
 
-import { BrandLogo } from "@/components/editor/brand-logo"
-
 import { PolicyIndex } from "./policy-index"
 
 export const metadata: Metadata = {
@@ -130,7 +128,6 @@ export default function PrivacyPage() {
       <section className="border-b border-border/70 bg-card/30">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-7 sm:px-10 lg:px-12">
           <nav className="flex items-center justify-between gap-5">
-            <BrandLogo />
             <Link
               href="/login"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-3 py-2 text-xs font-medium text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary focus-visible:ring-2 focus-visible:ring-primary/40 focus-visible:outline-none"

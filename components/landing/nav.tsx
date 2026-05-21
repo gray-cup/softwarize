@@ -4,7 +4,6 @@ import Link from "next/link"
 import { useState } from "react"
 import { motion, AnimatePresence } from "motion/react"
 import { ArrowRight } from "@/components/landing/landing-svgs"
-import { BrandLogo } from "@/components/editor/brand-logo"
 import { ease } from "@/components/landing/constants"
 
 const links = [
@@ -30,7 +29,6 @@ export function Nav() {
         transition={{ duration: 0.6, ease }}
         className="relative z-50 flex h-16 items-center justify-between px-5 sm:px-8 lg:px-12"
       >
-        <BrandLogo />
 
         {/* Desktop links */}
         <div className="hidden items-center gap-1 font-mono text-xs text-foreground/60 md:flex">
